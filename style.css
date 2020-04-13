@@ -1,0 +1,51 @@
+body{
+    background-color: yellow;
+    font-family: overpass;
+    }
+  #coronaimg{
+   float: right;
+   
+  }
+  
+  #title{
+    position: relative;
+    left: 100px;
+    font-size: 60px;
+    font-family: overpass;
+    }
+  #description{
+    text-align: center;
+      font-size: 30px;
+    font-family: overpass;
+  }
+  #survey-form{
+   text-align: 
+  }
+  #name{
+    width: 99%;
+    border: 2px solid black;
+    }
+  #email{
+    width: 99%;
+    border: 2px solid black;
+  
+  }
+  #number{
+    width: 99%;
+    border: 2px solid black;
+  }
+  #dropdown{
+    width: 100%;
+    border: 2px solid black;
+  }
+  #submit{
+    width:50%;
+    height: 20px;
+    border: 2px solid black;
+  }
+  #comments{
+    border: 2px solid black;
+  
+  }
+  
+    
