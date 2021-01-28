@@ -1,51 +1,60 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;600;700;800&display=swap');
+
+body {
     background-color: yellow;
-    font-family: overpass;
-    }
-  #coronaimg{
-   float: right;
-   
-  }
-  
-  #title{
+    font-family: 'Overpass', sans-serif;;
+}
+
+#coronaimg {
+    float: right;
+
+}
+
+#title {
     position: relative;
     left: 100px;
     font-size: 60px;
     font-family: overpass;
-    }
-  #description{
+}
+
+#description {
     text-align: center;
-      font-size: 30px;
+    font-size: 30px;
     font-family: overpass;
-  }
-  #survey-form{
-   text-align: 
-  }
-  #name{
+}
+
+#survey-form {
+    text-align: center;
+}
+
+#name {
     width: 99%;
     border: 2px solid black;
-    }
-  #email{
+}
+
+#email {
     width: 99%;
     border: 2px solid black;
-  
-  }
-  #number{
+
+}
+
+#number {
     width: 99%;
     border: 2px solid black;
-  }
-  #dropdown{
+}
+
+#dropdown {
     width: 100%;
     border: 2px solid black;
-  }
-  #submit{
-    width:50%;
+}
+
+#submit {
+    width: 50%;
     height: 20px;
     border: 2px solid black;
-  }
-  #comments{
+}
+
+#comments {
     border: 2px solid black;
-  
-  }
-  
-    
+
+}
