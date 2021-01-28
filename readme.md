@@ -3,7 +3,7 @@
 
 - This project was to create a form using html and css.
 - The purpose of this project was to learn the varing html inputs and to style a from using css.
-- I build a survey asking people about their experience with covid.
+- I built a survey asking people about their experience with covid.
 
 
 
