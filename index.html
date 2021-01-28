@@ -1,158 +1,125 @@
-<html>
-  <link <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Overpass:wght@300&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <head> <div id="head">
-    <img id="coronaimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8IOHp93gM8o_mSmaeQzzsPj-EvqKYYb6nO729iuSNI2ybxy4q&usqp=CAU" alt="caronavirus image"/>
-    <h1 id="title">
-    Covid-19<br /> Survey
-    </h1></div>
-    <p id="description">
-      Survey about the effect Covid-19 has on you.
-    </p>
-  </head>
-  
-  <body>
-   <form id="survey-form">
-  <label id="name-label" for="name">
-    Full Name. 
-    
-    <input 
-           type="text" 
-           name="name"
-           id="name"
-           placeholder="enter full name"
-           required>
-          
-     </label>
-     <br/>
-     <label id="email-label">
-       Email. 
-       <input
-              type="email"
-              name="email"
-              id="email"
-              required
-              placeholder="enter your email address">
-       </label>
-       <br />
-     <label id="number-label">
-       Age  
-       <input 
-              type="number"
-              id="number"
-              name="number" 
-              min="1" 
-              max="100"
-              required 
-              id="number"
-              placeholder="enter your age"> </label>
-     <br />
-     <br />
-    
-     <label for="dropdown">
-       What part of ireland are you living?
-     </label>
-     <select name="partofireland" id="dropdown">
-       <option
-           value="pleaseselect">
-         Please select
-       </option>
-       <option value="leinster">
-         Leinster
-       </option>
-       <option value="ulster">
-         Ulster
-       </option>
-       <option value="connacht">
-         Connacht
-       </option>
-       <option value="munster">
-         Munster
-       </option>
-     </select>
-     <br />
-     <br />
-     <label for="radio">Do you think you could have Covid-19?</label>
-     <br />
-     <br />
-     <label for="yes">
-       <input 
-              type="radio" 
-              name="covid"
-              value="yes">
-       Yes
-     </label>
-     <label for="no">
-       <input
-              type="radio"
-              name="covid"
-              value="no">
-       No
-     </label>
-     <label for="maybe">
-       <input 
-              type="radio"
-              name="covid"
-          value="maybe">
-       Maybe
-     </label>
-     <br />
-     <br />
-     <label for="symptoms">
-       Have you been experiencing any of the following sympthoms?
-     </label>
-     <br />
-     <br />
-     <label for="fever">
-       <input 
-              type="checkbox"
-              name="sympthom"
-              value="fever">
-       Fever
-     </label>
-     <label for="drycough">
-       <input 
-              type="checkbox"
-              name="sympthom"
-              value="drycough">
-       Dry Cough
-     </label>
-     <br />
-     <label for="tiredness">
-       <input
-              type="checkbox"
-              name="sympthom"
-              value="tiredness">
-       Tiredness
-     </label>
-     <label
-          for="difficulty_breathing">
-       <input 
-              type="checkbox"
-              name="sympthom"
-          value="difficulty_breathing">
-       Difficulty breathing
-    </label>
-   <br />
-     <br />
-     <label for="comments">
-       Comments.
-     </label>
-     <br />
-     <textarea rows="4"
-                cols="40"
-                id="comments">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Overpass:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+    <header>
+        <div id="head">
+            <img id="coronaimg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8IOHp93gM8o_mSmaeQzzsPj-EvqKYYb6nO729iuSNI2ybxy4q&usqp=CAU"
+                alt="caronavirus image" />
+            <h1 id="title">
+                Covid-19<br /> Survey
+            </h1>
+        </div>
+        <p id="description">
+            Survey about the effect Covid-19 has on you.
+        </p>
+    </header>
+
+    <body>
+        <form id="survey-form">
+            <label id="name-label" for="name">
+                Full Name.
+
+                <input type="text" name="name" id="name" placeholder="enter full name" required>
+
+            </label>
+            <br />
+            <label id="email-label">
+                Email.
+                <input type="email" name="email" id="email" required placeholder="enter your email address">
+            </label>
+            <br />
+            <label id="number-label">
+                Age
+                <input type="number" id="number" name="number" min="1" max="100" required id="number"
+                    placeholder="enter your age"> </label>
+            <br />
+            <br />
+
+            <label for="dropdown">
+                What part of ireland are you living?
+            </label>
+            <select name="partofireland" id="dropdown">
+                <option value="pleaseselect">
+                    Please select
+                </option>
+                <option value="leinster">
+                    Leinster
+                </option>
+                <option value="ulster">
+                    Ulster
+                </option>
+                <option value="connacht">
+                    Connacht
+                </option>
+                <option value="munster">
+                    Munster
+                </option>
+            </select>
+            <br />
+            <br />
+            <label for="radio">Do you think you could have Covid-19?</label>
+            <br />
+            <br />
+            <label for="yes">
+                <input type="radio" name="covid" value="yes">
+                Yes
+            </label>
+            <label for="no">
+                <input type="radio" name="covid" value="no">
+                No
+            </label>
+            <label for="maybe">
+                <input type="radio" name="covid" value="maybe">
+                Maybe
+            </label>
+            <br />
+            <br />
+            <label for="symptoms">
+                Have you been experiencing any of the following sympthoms?
+            </label>
+            <br />
+            <br />
+            <label for="fever">
+                <input type="checkbox" name="sympthom" value="fever">
+                Fever
+            </label>
+            <label for="drycough">
+                <input type="checkbox" name="sympthom" value="drycough">
+                Dry Cough
+            </label>
+            <br />
+            <label for="tiredness">
+                <input type="checkbox" name="sympthom" value="tiredness">
+                Tiredness
+            </label>
+            <label for="difficulty_breathing">
+                <input type="checkbox" name="sympthom" value="difficulty_breathing">
+                Difficulty breathing
+            </label>
+            <br />
+            <br />
+            <label for="comments">
+                Comments.
+            </label>
+            <br />
+            <textarea rows="4" cols="40" id="comments">
      </textarea>
-     <br />
-     <br />
-     <label> 
-       
-     <button
-            type="submit"
-            name="submit"
-             id="submit"
-           
-             value="submit">Submit</button>
-  </form>
-     </body>
-   </html>
+            <br />
+            <br />
+            <label>
+
+                <button type="submit" name="submit" id="submit" value="submit">Submit</button>
+        </form>
+    </body>
+
+</html>
